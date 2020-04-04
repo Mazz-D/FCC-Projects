@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  
+}
+nav ul {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #161817;
+}
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: green;
+}
+.about{ 
+    min-height: 55vh;
+  padding-top: 45vh;
+}
+#welcome-section{
+
+  height: 60vh; 
+  margin: auto;
+  background:hsl(240, 20%, 80%);
+  }
+p{
+  color: red;
+    }
+
+#projects{
+  background-color:hsl(80, 100%, 75%);
+  height: auto;
+  margin: auto;
+  padding: 30px;
+  font-size: 15px;
+  font-weight: bold;
+   }
+.work-head{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: green;
+  padding: px;
+}
+.project {
+text-decoration: none;
+display: inline-block;
+overflow: hidden;
+border: 2px solid brown;
+height: 230px;
+width: 240px;
+margin: 40px 120px; 
+
+}
+.project-title{
+  font-weight: bold;
+  margin: auto;
+  color: green;
+}
+.project-tile{
+  background: white;
+  
+  }
+.project-pic{
+    border-bottom: 2px solid brown;
+    width: 100%;
+  height: 200px;;
+
+}
+.show{
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid green;
+ display: block;
+ margin: auto;  
+ padding: 5px;
+ width: 150px;
+ height: 20px;
+ background: white;
+ color: green;
+}
+
+#contacts{
+  background-color: hsl(100, 100%, 55%);
+  height: 90vh; 
+  padding-top: 30px;
+}
+.contact-head{
+  font-size: 40px;
+  font-family: cursive;
+  color: blue;
+  padding: 0px;
+}
+.contact-details{
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  text-decoration: none;
+  display: inline-block;
+  background: wheat;
+  color: purple;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 100px 40px; 
+  line-height: 100px;
+}
+footer{
+  background-color: hsl(340, 100%, 30%);
+  line-height: 50px;
+  color: black;
+  padding: 40px;
+  }
+footer a{
+  text-decoration: none;
+  color: hsl(120, 60%, 65%);
+}
+@media screen and (max-width: 600px) {
+  
+      }
+
+@media screen and (min-width: 400px){
+
+  
+}

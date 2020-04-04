@@ -1,0 +1,112 @@
+
+
+#form{
+background-color: rgb(99, 202, 163);
+text-align: center;
+min-width: 800px;
+margin: auto; 
+font-family: Arial, Helvetica, sans-serif;
+} /*this affect the the whole form and its body*/
+
+#title{
+    font-size: 2em;
+    margin: 20px;
+}
+
+#inner-form{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px; 
+ 
+ 
+} /*the content of the form*/
+
+#description{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.rightTab{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 50%;
+    margin-top: -5px;
+}
+
+.label{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    right: 5px;
+    width: 35%;
+    padding: 2px;
+    margin-top: 5px;
+   }
+
+.radio, .checkbox{
+    position: relative;
+    left: -55px;
+    margin-left: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding: 0;
+}
+
+   .userRatings, input[type="checkbox"]{
+       
+    margin-left: 5px;
+}
+
+input[type="radio"]{
+    float: left;
+    margin-left: 5px;
+}
+
+ .dropdown{
+    padding: 3px;
+    margin: 10px 8px;
+    height: 30px;
+    width: 150px;
+    border: 1px solid grey;
+    border-radius: 2px;
+
+ }
+
+ .input-field{
+    padding: 5px;
+    margin: 10px 8px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    height: 35px;
+    width: 300px;
+ }
+ #submit{
+     width: 100px;
+     height: 30px;
+     font-size: 13px;
+     color: white;
+     background: purple;
+     padding: 2px;
+     margin-left: 5px;
+     text-align: center;
+     border: 2px solid;
+     border-radius: 5px;
+     box-shadow: none;
+ }
+
+ 
+
+ @media screen and (min-width: 374px){
+      
+    .input-field{
+           width: 80%;
+        }
+     }
